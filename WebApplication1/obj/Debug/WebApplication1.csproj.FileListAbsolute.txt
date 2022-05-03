@@ -72,8 +72,8 @@ C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\bin\System.W
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\bin\Newtonsoft.Json.xml
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\bin\Antlr3.Runtime.pdb
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Bharath.Reddy\Source\Repos\Github\coverage\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache

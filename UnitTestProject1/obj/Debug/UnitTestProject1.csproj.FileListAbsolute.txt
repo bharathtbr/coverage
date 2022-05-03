@@ -41,8 +41,9 @@ C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\bin\Debug\x
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\bin\Debug\System.Web.Optimization.xml
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\bin\Debug\Antlr3.Runtime.pdb
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\bin\Debug\Newtonsoft.Json.xml
-C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\bharath.reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Bharath.Reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
+C:\Users\Bharath.Reddy\Source\Repos\Github\coverage\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.SuggestedBindingRedirects.cache
