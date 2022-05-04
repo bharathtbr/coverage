@@ -39,7 +39,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-
+    
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.1
+  
       # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
       # If this step fails, then you should remove it and run the build manually (see below)
     - name: Build .NET with CodeQL in self-hosted runner with Bharath
