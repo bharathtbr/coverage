@@ -23,7 +23,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: windows-2019
+    runs-on: self-hosted
     timeout-minutes: 120
     permissions:
       actions: read
@@ -58,7 +58,7 @@ jobs:
       # If this step fails, then you should remove it and run the build manually (see below)
     - name: Build .NET with CodeQL in self-hosted runner with Bharath
       run: | 
-        MsBuild.exe WebApplication1/WebApplication1.sln 
+        MsBuild.exe WebApplication1/WebApplication1.sln /p:UseSharedCompilation=false
 
 
     # ℹ️ Command-line programs to run using the OS shell.
