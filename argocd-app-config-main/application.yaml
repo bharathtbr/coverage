@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
+    repoURL: https://github.com/bharathtbr/coverage.git
     targetRevision: HEAD
-    path: dev
+    path: argocd-app-config-main/dev
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: jmeter
 
   syncPolicy:
     syncOptions:

@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: jmeter
 spec:
   selector:
     matchLabels:
-      app: myapp
-  replicas: 2
+      app: jmeter
+  replicas: 1
   template:
     metadata:
       labels:
-        app: myapp
+        app: jmeter
     spec:
       containers:
-      - name: myapp
-        image: nanajanashia/argocd-app:1.2
+      - name: jmeter
+        image: justb4/jmeter:latest
         ports:
         - containerPort: 8080
