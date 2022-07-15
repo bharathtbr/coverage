@@ -1,19 +1,36 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jmeter
+  name: aspnetapp6
 spec:
   selector:
     matchLabels:
-      app: jmeter
+      app: aspnetapp6
   replicas: 1
   template:
     metadata:
       labels:
-        app: jmeter
+        app: aspnetapp6
     spec:
       containers:
-      - name: jmeter
-        image: bharatht08/jmeter1208:1.0
+      - name: aspnetapp6
+        image: bharatht08/apsnetapp6:alpine1.0
         ports:
-        - containerPort: 8080
+        - containerPort: 80
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: aspnetapp6-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: aspnetapp6
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+ 
+
+
