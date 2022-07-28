@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: aspnetapp6
-        image: bharatht08/apsnetapp6:alpine1.0
+        image: bharatht08/apsnetapp6:latest
         ports:
         - containerPort: 80
         
